@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Dark gray text color */
+  font-size: 36px; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 20px; /* Add some space below the h2 element */
+}
+
+
+#time-left {
+  font-size: 24px;
+  text-align: center;
+  color: #333; /* Dark gray text color */
+  margin-bottom: 20px; /* Add some space below the time left */
+}
+
+#equation {
+  font-size: 36px;
+  text-align: center;
+  color: #333; /* Dark gray text color */
+}
+
+#user-input {
+  font-size: 24px;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  border: none; /* Remove border */
+  background-color: #fff; /* White background */
+  padding: 10px;
+  border-radius: 20px; /* Rounded edges */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#score, #high-score {
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #ffcc00; /* Yellow background */
+  color: #333; /* Dark gray text color */
+  padding: 10px 20px;
+  border-radius: 20px; /* Rounded edges */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+#range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#number-range {
+  width: 300px;
+  height: 20px;
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* Gradient background */
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  -webkit-appearance: none; /* Remove default styles for WebKit browsers */
+}
+
+#number-range::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styles for WebKit browsers */
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  cursor: pointer;
+}
+
+#range-value {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #2193b0; /* Match the color with the gradient */
+}
